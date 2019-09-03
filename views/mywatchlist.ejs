@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My watchlist</title>
+</head>
+<body>
+    <ul class="watchlist">
+    <% for(var i=0; i<watchlist.length; i++) {%>
+        <li class="watchlist">
+        <span><%=watchlist[i].url %></span>
+        </li>
+    <% } %>
+    </ul>
+</body>
+</html>
